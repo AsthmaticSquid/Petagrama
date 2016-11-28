@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="menu_contact">Contacta</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="acerca_de_text">Made by Asthmatic Squid, from the earth.</string>
+    <string name="recycler_view_fragment">RecyclerView fragment</string>
+    <string name="perfil_fragment">Perfil fragment</string>
+</resources>

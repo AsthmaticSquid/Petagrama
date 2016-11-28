@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/miToolBarFavs"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/actionbar_title"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_marginLeft="-20dp"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center_vertical"
+            android:onClick="goToMain"/>
+
+        <ImageView
+            android:id="@+id/ivPotatb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/pota"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:textSize="@dimen/actionbar_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="            "/>
+
+        <ImageView
+            android:id="@+id/ivStarTB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
